@@ -3,12 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package estructurasdedatos;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList; 
-import java.util.Stack; 
-import java.util.Queue; 
 
 /**
  *
@@ -54,16 +49,20 @@ public class EstructurasDeDatos {
 
         //EjerciciosRecursividad.matrizDiagInf(matriz,0,0,0,3);
         //EjerciciosRecursividad.matrizDiagInf(matrizGrande,0,0,0,5);
-        EjerciciosRecursividad.matrizDiagInf(matrizBestia,0,0,0,10);
+        //EjerciciosRecursividad.matrizDiagInf(matrizBestia,0,0,0,10);
 
         //EjerciciosRecursividad.matrizDiagonal(matriz, 0,0,0,3);
         //EjerciciosRecursividad.matrizDiagonal(matrizGrande, 0,0,0,5);
         //EjerciciosRecursividad.matrizDiagonal(matrizBestia,0,0,0,10);
 
+        //EjerciciosRecursividad.matrizSupDer(matrizGrande,0,4,4,4);
+        //EjerciciosRecursividad.matrizSupDer(matrizBestia,0,9,9,9);
+
 
         
     }
-    
+
+    /*
     public static void eliminaElementosMenores(int n , MyQueue cola ){
         for (Object elemento: cola.elementos){
             if ((int) elemento < n)
@@ -72,7 +71,6 @@ public class EstructurasDeDatos {
         }
     }
 
-    /*
     public static <T> void eliminaRepetidosConsecutivos(MyQueue<T> cola){
         // Se asume la cola no esta vacia 
         T temp; 
